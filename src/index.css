@@ -1,13 +1,154 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+#root {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.site-content {
+  flex: 1;
 }
+
+/* navbar */
+.logo {
+  width: 100%;
+  font-size: 28px;
+  font-weight: bold;
+  padding: 0.5%;
+  margin-left: 3rem
+}
+
+img.d-inline-block {
+  margin-right: 1rem;
+}
+
+#navbar-nav {
+  margin-right: 3rem;
+}
+
+/* breadcrumb */
+.breadcrumb {
+  padding-left: 5rem;
+
+}
+
+label {
+  display: block;
+  font: .9rem 'Fira Sans', sans-serif;
+}
+
+input[type='submit'],
+label {
+  margin-top: 1rem;
+}
+
+/* footer */
+footer {
+  padding-top: 5%;
+}
+.page-footer {
+  height: 170px;
+}
+.footer-content {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+/* article lightbox gallery */
+
+.primary-img {
+  width: 100%;
+}
+
+.secondary-img {
+  padding-top: 20px;
+  width: 100%;
+}
+
+/* article list page */
+
+.article-list-content {
+  padding-left: 2rem;
+  padding-right: 3rem;
+}
+
+.article-item-list {
+  border-bottom: 1px grey solid;
+  padding-bottom: 18px;
+  margin-right: 1rem;
+ 
+}
+.wrap {
+  flex: 1;
+}
+
+/* chat page */
+.chat-title {
+  margin-left: 4rem;
+}
+#message-box {
+  border:1px solid grey;
+  height: 450px;
+  overflow: scroll;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: 3rem;
+  margin-left: 3rem;
+}
+
+#chat-form {
+  border: 1px solid grey;
+  background-color: #f8f9fa;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  margin-right: 3rem;
+  margin-left: 3rem;
+}
+
+.chat-message {
+  padding: 10px;
+  border-bottom: 1px solid grey;
+}
+
+.chat-message-timestamp {
+  color: grey;
+  font-size: 0.7em;
+  padding-left: 10px;
+}
+
+/* registration page */
+.registration {
+  margin-left: 1rem;
+}
+.register-title {
+  margin-left: 3rem;
+}
+
+/* about us */
+
+.company-tabs {
+  margin-right: 3rem;
+  margin-left: 3rem; 
+}
+
+.tab-content {
+
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  border: 1px solid lightgray;
+}
+
+.contacts {
+
+  margin-left: 3rem; 
+  padding-top: 40px;
+}
+
+
+.cards-container {
+  margin-top: 40px;
+}
+
+
+
+
